@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+
+footer {
+    background: #28a745;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social a:hover {
+    color: #ccc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #DCDCDC;
+    line-height: 1.6;
+}
+
+header {
+    background: #28a745;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#servicos .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5em;
+    margin: 1em;
+    display: inline-block;
+    width: 30%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #servicos .card {
+        width: 100%;
+    }
+}
